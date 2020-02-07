@@ -2,7 +2,7 @@
 const mongoose = require("mongoose")
 
 const DBConfig = {
-    url: "mongodb://admin:admin1@ds047197.mlab.com:47197/smallcase",
+    url: "mongodb://admin:admin1@ds047197.mlab.com:47197/heroku_ndw7wsmn",
     timeout: 10000,
     user: "admin",
     pass: "admin1",
