@@ -1,0 +1,27 @@
+{
+  "name": "smallcase",
+  "version": "1.0.0",
+  "description": "Smallcase Assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/m.vh/smallcase.git"
+  },
+  "author": "Megha Hegde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/m.vh/smallcase/issues"
+  },
+  "homepage": "https://gitlab.com/m.vh/smallcase#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.11"
+  }
+}
