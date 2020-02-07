@@ -24,7 +24,7 @@ async function start() {
     // Initialize the db, routes
     await Db.init(process.env.NODE_ENV === "development");
     // The server start
-    app.listen(process.env.PORT || 3000, process.env.HOST, (error) => {
+    app.listen(process.env.PORT || 3000, "0.0.0.0", (error) => {
         if (error) {
             return signale.error(`Server start failed`, error);
         }
