@@ -4,7 +4,7 @@ const Transaction = require("../models/transaction");
 const portfolio = require("../models/portfolio")
 const ObjectID = require('mongodb').ObjectID;
 
-const currentPrice = 5052.918;
+const currentPrice = 100;
 
 /**
  * This API is to fetch the portfolio data with all the transactions
