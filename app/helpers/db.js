@@ -2,10 +2,10 @@
 const mongoose = require("mongoose")
 
 const DBConfig = {
-    url: "mongodb://127.0.0.1:27017/smallcase",
+    url: "mongodb://admin:admin1@ds047197.mlab.com:47197/smallcase",
     timeout: 10000,
     user: "admin",
-    pass: "admin",
+    pass: "admin1",
 };
 
 
